@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "AI Governance Toolkit"
+abstract: "Control matrix mapping ISO/IEC 42001, the EU AI Act and NIST AI RMF, with templates, worked examples and a validator."
+type: software
+authors:
+  - family-names: "Puliyappottammal"
+    given-names: "Jijesh"
+repository-code: "https://github.com/pJijesh/ai-governance-toolkit"
+url: "https://github.com/pJijesh/ai-governance-toolkit"
+license: MIT
+version: 1.0.0
+date-released: "2026-11-11"
+keywords:
+  - ai-governance
+  - compliance
+  - eu-ai-act
+  - iso-42001
+  - nist-ai-rmf
+  - python
+  - responsible-ai
+  - risk-management

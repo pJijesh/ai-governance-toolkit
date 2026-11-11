@@ -1,5 +1,7 @@
 # AI Governance Toolkit
 
+![AI Governance Toolkit: project banner](docs/images/banner.png)
+
 [![CI](https://github.com/pJijesh/ai-governance-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/pJijesh/ai-governance-toolkit/actions/workflows/ci.yml) [![Licence: MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE) ![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg) ![Dependencies: none](https://img.shields.io/badge/dependencies-none-brightgreen.svg)
 
 **Problem:** organisations are adopting AI faster than they can show what they use, what could go wrong and who is accountable, and three overlapping frameworks make the first practical steps hard to see.

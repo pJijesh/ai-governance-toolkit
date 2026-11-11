@@ -1,0 +1,73 @@
+id,function,category,title,verification
+GOVERN 1.1,GOVERN,GOVERN 1 Policies and processes,Legal and regulatory requirements are understood and recorded,secondary-checked
+GOVERN 1.2,GOVERN,GOVERN 1 Policies and processes,Trustworthy AI characteristics are built into policies,secondary-checked
+GOVERN 1.3,GOVERN,GOVERN 1 Policies and processes,Risk management effort is set by risk tolerance,secondary-checked
+GOVERN 1.4,GOVERN,GOVERN 1 Policies and processes,Transparent risk management policies and controls exist,secondary-checked
+GOVERN 1.5,GOVERN,GOVERN 1 Policies and processes,Ongoing monitoring and periodic review are planned,secondary-checked
+GOVERN 1.6,GOVERN,GOVERN 1 Policies and processes,An inventory of AI systems is kept,secondary-checked
+GOVERN 1.7,GOVERN,GOVERN 1 Policies and processes,Safe decommissioning and phase-out of AI systems,secondary-checked
+GOVERN 2.1,GOVERN,GOVERN 2 Accountability structures,AI risk roles and communication lines are documented,secondary-checked
+GOVERN 2.2,GOVERN,GOVERN 2 Accountability structures,Personnel and partners receive AI risk training,secondary-checked
+GOVERN 2.3,GOVERN,GOVERN 2 Accountability structures,Executive leadership owns AI risk decisions,secondary-checked
+GOVERN 3.1,GOVERN,GOVERN 3 Workforce diversity and inclusion,Diverse teams inform AI risk decisions,secondary-checked
+GOVERN 3.2,GOVERN,GOVERN 3 Workforce diversity and inclusion,Roles for human and AI configurations and oversight are defined,secondary-checked
+GOVERN 4.1,GOVERN,GOVERN 4 Risk-aware culture,Critical thinking and a safety-first mindset are encouraged,secondary-checked
+GOVERN 4.2,GOVERN,GOVERN 4 Risk-aware culture,AI risks and impacts are documented and communicated,secondary-checked
+GOVERN 4.3,GOVERN,GOVERN 4 Risk-aware culture,Testing incident identification and information sharing are enabled,secondary-checked
+GOVERN 5.1,GOVERN,GOVERN 5 Engagement with AI actors,External feedback on impacts is collected and acted on,secondary-checked
+GOVERN 5.2,GOVERN,GOVERN 5 Engagement with AI actors,Stakeholder feedback feeds design and implementation,secondary-checked
+GOVERN 6.1,GOVERN,GOVERN 6 Third-party and supply chain,Third-party AI risks including IP are addressed,secondary-checked
+GOVERN 6.2,GOVERN,GOVERN 6 Third-party and supply chain,Contingency plans exist for third-party failures,secondary-checked
+MAP 1.1,MAP,MAP 1 Context,Purpose benefits legal context and deployment setting are recorded,secondary-checked
+MAP 1.2,MAP,MAP 1 Context,Interdisciplinary participation in setting context is recorded,secondary-checked
+MAP 1.3,MAP,MAP 1 Context,Organisational mission and AI goals are understood,secondary-checked
+MAP 1.4,MAP,MAP 1 Context,Business value and business use are defined,secondary-checked
+MAP 1.5,MAP,MAP 1 Context,Organisational risk tolerances are determined,secondary-checked
+MAP 1.6,MAP,MAP 1 Context,System requirements are elicited with socio-technical factors,secondary-checked
+MAP 2.1,MAP,MAP 2 Categorisation,The task and methods the system supports are defined,secondary-checked
+MAP 2.2,MAP,MAP 2 Categorisation,Knowledge limits and human use of outputs are documented,secondary-checked
+MAP 2.3,MAP,MAP 2 Categorisation,Scientific integrity and test considerations are documented,secondary-checked
+MAP 3.1,MAP,MAP 3 Benefits and costs,Potential benefits are examined and documented,secondary-checked
+MAP 3.2,MAP,MAP 3 Benefits and costs,Potential costs including non-monetary ones are examined,secondary-checked
+MAP 3.3,MAP,MAP 3 Benefits and costs,Targeted application scope is specified,secondary-checked
+MAP 3.4,MAP,MAP 3 Benefits and costs,Operator and practitioner proficiency needs are defined,secondary-checked
+MAP 3.5,MAP,MAP 3 Benefits and costs,Human oversight processes are defined,secondary-checked
+MAP 4.1,MAP,MAP 4 Component risks,Legal and IP risks of components including third-party ones are mapped,secondary-checked
+MAP 4.2,MAP,MAP 4 Component risks,Internal risk controls for components are documented,secondary-checked
+MAP 5.1,MAP,MAP 5 Impacts,Likelihood and magnitude of impacts are characterised,secondary-checked
+MAP 5.2,MAP,MAP 5 Impacts,Ongoing engagement on impacts is maintained,secondary-checked
+MEASURE 1.1,MEASURE,MEASURE 1 Methods and metrics,Metrics are chosen for significant risks and unmeasurable ones noted,secondary-checked
+MEASURE 1.2,MEASURE,MEASURE 1 Methods and metrics,Metric suitability and control effectiveness are reassessed,secondary-checked
+MEASURE 1.3,MEASURE,MEASURE 1 Methods and metrics,Independent assessors and affected parties take part,secondary-checked
+MEASURE 2.1,MEASURE,MEASURE 2 Trustworthiness evaluation,Test sets metrics and tools are documented,secondary-checked
+MEASURE 2.2,MEASURE,MEASURE 2 Trustworthiness evaluation,Human-subject evaluations meet requirements and represent the population,secondary-checked
+MEASURE 2.3,MEASURE,MEASURE 2 Trustworthiness evaluation,Performance is measured under deployment-like conditions,secondary-checked
+MEASURE 2.4,MEASURE,MEASURE 2 Trustworthiness evaluation,Functionality and behaviour are monitored in production,secondary-checked
+MEASURE 2.5,MEASURE,MEASURE 2 Trustworthiness evaluation,Validity and reliability are shown and limits documented,secondary-checked
+MEASURE 2.6,MEASURE,MEASURE 2 Trustworthiness evaluation,Safety is evaluated and safe failure confirmed,secondary-checked
+MEASURE 2.7,MEASURE,MEASURE 2 Trustworthiness evaluation,Security and resilience are evaluated,secondary-checked
+MEASURE 2.8,MEASURE,MEASURE 2 Trustworthiness evaluation,Transparency and accountability risks are examined,secondary-checked
+MEASURE 2.9,MEASURE,MEASURE 2 Trustworthiness evaluation,The model is explained and its outputs interpreted,secondary-checked
+MEASURE 2.10,MEASURE,MEASURE 2 Trustworthiness evaluation,Privacy risk is examined and documented,secondary-checked
+MEASURE 2.11,MEASURE,MEASURE 2 Trustworthiness evaluation,Fairness and bias are evaluated,secondary-checked
+MEASURE 2.12,MEASURE,MEASURE 2 Trustworthiness evaluation,Environmental impact and sustainability are assessed,secondary-checked
+MEASURE 2.13,MEASURE,MEASURE 2 Trustworthiness evaluation,The effectiveness of the evaluation process itself is reviewed,secondary-checked
+MEASURE 3.1,MEASURE,MEASURE 3 Tracking risks over time,Existing and emerging risks are tracked,secondary-checked
+MEASURE 3.2,MEASURE,MEASURE 3 Tracking risks over time,Hard-to-measure risks are tracked,secondary-checked
+MEASURE 3.3,MEASURE,MEASURE 3 Tracking risks over time,Feedback and appeal channels exist for end users,secondary-checked
+MEASURE 4.1,MEASURE,MEASURE 4 Measurement feedback,Measurement is tied to deployment context with expert input,secondary-checked
+MEASURE 4.2,MEASURE,MEASURE 4 Measurement feedback,Trustworthiness results are validated with domain experts,secondary-checked
+MEASURE 4.3,MEASURE,MEASURE 4 Measurement feedback,Performance changes are identified from field data and feedback,secondary-checked
+MANAGE 1.1,MANAGE,MANAGE 1 Prioritising and responding,A decision is taken on whether the system should proceed,secondary-checked
+MANAGE 1.2,MANAGE,MANAGE 1 Prioritising and responding,Risk treatment is prioritised,secondary-checked
+MANAGE 1.3,MANAGE,MANAGE 1 Prioritising and responding,Responses to high-priority risks are planned,secondary-checked
+MANAGE 1.4,MANAGE,MANAGE 1 Prioritising and responding,Residual risks are documented for acquirers and users,secondary-checked
+MANAGE 2.1,MANAGE,MANAGE 2 Maximising benefit and limiting harm,Resources and non-AI alternatives are considered,secondary-checked
+MANAGE 2.2,MANAGE,MANAGE 2 Maximising benefit and limiting harm,The value of deployed systems is sustained,secondary-checked
+MANAGE 2.3,MANAGE,MANAGE 2 Maximising benefit and limiting harm,Response and recovery for newly found risks,secondary-checked
+MANAGE 2.4,MANAGE,MANAGE 2 Maximising benefit and limiting harm,Responsibility to supersede or deactivate misbehaving systems,secondary-checked
+MANAGE 3.1,MANAGE,MANAGE 3 Third-party risks,Third-party AI risks and benefits are monitored,secondary-checked
+MANAGE 3.2,MANAGE,MANAGE 3 Third-party risks,Pre-trained models used in development are monitored,secondary-checked
+MANAGE 4.1,MANAGE,MANAGE 4 Treatment and monitoring,Post-deployment monitoring feedback appeals incident response and change management,secondary-checked
+MANAGE 4.2,MANAGE,MANAGE 4 Treatment and monitoring,Measurable continual improvement is built into updates,secondary-checked
+MANAGE 4.3,MANAGE,MANAGE 4 Treatment and monitoring,Incidents and errors are communicated tracked and recovered from,secondary-checked

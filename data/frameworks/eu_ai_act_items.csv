@@ -1,0 +1,41 @@
+id,chapter,title,applies_to,coverage_expected,verification,note
+Art 2,I General provisions,Scope of application,all,yes,secondary-checked,Includes the extraterritorial reach for outputs used in the EU
+Art 3,I General provisions,Definitions,all,yes,secondary-checked,Defines provider and deployer and other operator roles
+Art 4,I General provisions,AI literacy measures,provider;deployer,yes,secondary-checked,Obligation softened by the Digital Omnibus; check current wording
+Art 5,II Prohibited practices,Prohibited practices,all,yes,secondary-checked,The Digital Omnibus adds a further prohibition; check current wording
+Art 6,III High-risk systems,Rules for classifying high-risk systems,provider;deployer,yes,secondary-checked,Annex III and Annex I are annexes and not separate items here
+Art 7,III High-risk systems,Changes to the Annex III list,authority,no,secondary-checked,Commission power; monitor via the legal register
+Art 8,III High-risk systems,Compliance with high-risk requirements,provider,yes,secondary-checked,
+Art 9,III High-risk systems,Risk management system,provider,yes,secondary-checked,
+Art 10,III High-risk systems,Data and data governance,provider,yes,secondary-checked,
+Art 11,III High-risk systems,Technical documentation,provider,yes,secondary-checked,
+Art 12,III High-risk systems,Record-keeping (logging capability),provider,yes,secondary-checked,
+Art 13,III High-risk systems,Transparency and information for deployers,provider,yes,secondary-checked,
+Art 14,III High-risk systems,Human oversight,provider;deployer,yes,secondary-checked,Provider designs for oversight; deployer assigns it under Art 26
+Art 15,III High-risk systems,Accuracy robustness and cybersecurity,provider,yes,secondary-checked,
+Art 16,III High-risk systems,Provider obligations (high-risk),provider,yes,secondary-checked,
+Art 17,III High-risk systems,Quality management system,provider,yes,secondary-checked,
+Art 18,III High-risk systems,Keeping documentation,provider,yes,secondary-checked,
+Art 19,III High-risk systems,Retention of automatically generated logs,provider,yes,secondary-checked,
+Art 20,III High-risk systems,Corrective actions and duty to inform,provider,yes,secondary-checked,
+Art 21,III High-risk systems,Cooperation with authorities,provider,yes,secondary-checked,
+Art 22,III High-risk systems,Authorised representatives of providers,provider,no,secondary-checked,Only relevant to providers established outside the EU; see the supplier checklist
+Art 23,III High-risk systems,Importer obligations,importer,no,secondary-checked,Role-specific; out of scope for this toolkit
+Art 24,III High-risk systems,Distributor obligations,distributor,no,secondary-checked,Role-specific; out of scope for this toolkit
+Art 25,III High-risk systems,Responsibilities along the AI value chain,provider;deployer,yes,secondary-checked,Explains when a deployer becomes a provider
+Art 26,III High-risk systems,Deployer obligations (high-risk),deployer,yes,secondary-checked,
+Art 27,III High-risk systems,Fundamental rights impact assessment,deployer,yes,secondary-checked,Applies to a defined subset of deployers; see Art 27(1)
+Art 43,III High-risk systems,Conformity assessment,provider,yes,secondary-checked,
+Art 47,III High-risk systems,EU declaration of conformity,provider,yes,secondary-checked,
+Art 48,III High-risk systems,CE marking,provider,yes,secondary-checked,
+Art 49,III High-risk systems,Registration,provider;deployer,yes,secondary-checked,Some public-sector deployers also register
+Art 50,IV Transparency,Transparency for certain AI systems,provider;deployer,yes,secondary-checked,Applies from 2 August 2026 with a marking grace period; see timeline
+Art 51,V General-purpose AI models,Classification of GPAI models with systemic risk,gpai-provider,no,secondary-checked,Relevant to model providers; a deployer only needs to know the supplier's status
+Art 53,V General-purpose AI models,Obligations of GPAI model providers,gpai-provider,yes,secondary-checked,Used by downstream users to know what to request from suppliers
+Art 55,V General-purpose AI models,Obligations for GPAI models with systemic risk,gpai-provider,no,secondary-checked,Relevant to model providers only
+Art 72,IX Post-market monitoring,Post-market monitoring by providers,provider,yes,secondary-checked,
+Art 73,IX Post-market monitoring,Reporting serious incidents,provider;deployer,yes,secondary-checked,Deployers inform the provider and authorities as set out in Art 26(5)
+Art 85,IX Post-market monitoring,Right to complain to an authority,authority,no,secondary-checked,Right of individuals; informs the complaints channel design
+Art 86,IX Post-market monitoring,Right to explanation of individual decisions,deployer,yes,secondary-checked,
+Art 87,IX Post-market monitoring,Reporting infringements and protecting reporters,all,yes,secondary-checked,Refers to the EU whistleblower directive
+Art 99,XII Penalties,Penalties,authority,no,secondary-checked,Informational; not a control topic

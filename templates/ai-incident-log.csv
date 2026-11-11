@@ -1,0 +1,1 @@
+incident_id,system_id,date_detected,description,category,severity,affected_people,immediate_action,root_cause,corrective_action,related_controls,reportable_externally,external_report_date,status,closed_date,lessons

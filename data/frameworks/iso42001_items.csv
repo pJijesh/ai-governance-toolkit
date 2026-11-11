@@ -1,0 +1,66 @@
+id,type,area,title,verification
+4.1,clause,4 Context,Understanding the organisation and its context,secondary-checked
+4.2,clause,4 Context,Needs and expectations of interested parties,secondary-checked
+4.3,clause,4 Context,Scope of the AI management system,secondary-checked
+4.4,clause,4 Context,The AI management system itself,secondary-checked
+5.1,clause,5 Leadership,Leadership and commitment,secondary-checked
+5.2,clause,5 Leadership,AI policy,secondary-checked
+5.3,clause,5 Leadership,Roles responsibilities and authorities,secondary-checked
+6.1.1,clause,6 Planning,Addressing risks and opportunities (general),secondary-checked
+6.1.2,clause,6 Planning,AI risk assessment (planning),secondary-checked
+6.1.3,clause,6 Planning,AI risk treatment (planning),secondary-checked
+6.1.4,clause,6 Planning,AI system impact assessment (planning),secondary-checked
+6.2,clause,6 Planning,AI objectives and how to achieve them,secondary-checked
+6.3,clause,6 Planning,Planning of changes,secondary-checked
+7.1,clause,7 Support,Resources,secondary-checked
+7.2,clause,7 Support,Competence,secondary-checked
+7.3,clause,7 Support,Awareness,secondary-checked
+7.4,clause,7 Support,Communication,secondary-checked
+7.5,clause,7 Support,Documented information,secondary-checked
+8.1,clause,8 Operation,Operational planning and control,secondary-checked
+8.2,clause,8 Operation,AI risk assessment (operation),secondary-checked
+8.3,clause,8 Operation,AI risk treatment (operation),secondary-checked
+8.4,clause,8 Operation,AI system impact assessment (operation),secondary-checked
+9.1,clause,9 Performance evaluation,Monitoring measurement analysis and evaluation,secondary-checked
+9.2,clause,9 Performance evaluation,Internal audit,secondary-checked
+9.3,clause,9 Performance evaluation,Management review,secondary-checked
+10.1,clause,10 Improvement,Continual improvement,secondary-checked
+10.2,clause,10 Improvement,Nonconformity and corrective action,secondary-checked
+A.2.2,annex_a_control,A.2 Policies related to AI,Organisational AI policy,secondary-checked
+A.2.3,annex_a_control,A.2 Policies related to AI,Fit with other organisational policies,secondary-checked
+A.2.4,annex_a_control,A.2 Policies related to AI,Review cycle for the AI policy,secondary-checked
+A.3.2,annex_a_control,A.3 Internal organisation,Allocation of AI roles and responsibilities,secondary-checked
+A.3.3,annex_a_control,A.3 Internal organisation,Channel for raising concerns,secondary-checked
+A.4.2,annex_a_control,A.4 Resources for AI systems,Documenting the resources a system needs,secondary-checked
+A.4.3,annex_a_control,A.4 Resources for AI systems,Data resources,secondary-checked
+A.4.4,annex_a_control,A.4 Resources for AI systems,Tooling resources,secondary-checked
+A.4.5,annex_a_control,A.4 Resources for AI systems,System and computing resources,secondary-checked
+A.4.6,annex_a_control,A.4 Resources for AI systems,People and skills,secondary-checked
+A.5.2,annex_a_control,A.5 Assessing impacts of AI systems,Impact assessment procedure,secondary-checked
+A.5.3,annex_a_control,A.5 Assessing impacts of AI systems,Recording impact assessment results,secondary-checked
+A.5.4,annex_a_control,A.5 Assessing impacts of AI systems,Effects on individuals and groups,secondary-checked
+A.5.5,annex_a_control,A.5 Assessing impacts of AI systems,Effects on society,secondary-checked
+A.6.1.2,annex_a_control,A.6 AI system life cycle,Goals for responsible development,secondary-checked
+A.6.1.3,annex_a_control,A.6 AI system life cycle,Responsible design and development process,secondary-checked
+A.6.2.2,annex_a_control,A.6 AI system life cycle,Requirements and specification,secondary-checked
+A.6.2.3,annex_a_control,A.6 AI system life cycle,Design and development records,secondary-checked
+A.6.2.4,annex_a_control,A.6 AI system life cycle,Verification and validation,secondary-checked
+A.6.2.5,annex_a_control,A.6 AI system life cycle,Deployment,secondary-checked
+A.6.2.6,annex_a_control,A.6 AI system life cycle,Operation and monitoring,secondary-checked
+A.6.2.7,annex_a_control,A.6 AI system life cycle,Technical documentation,secondary-checked
+A.6.2.8,annex_a_control,A.6 AI system life cycle,Recording of event logs,secondary-checked
+A.7.2,annex_a_control,A.7 Data for AI systems,Data for development and improvement,secondary-checked
+A.7.3,annex_a_control,A.7 Data for AI systems,Obtaining data,secondary-checked
+A.7.4,annex_a_control,A.7 Data for AI systems,Data quality,secondary-checked
+A.7.5,annex_a_control,A.7 Data for AI systems,Data provenance,secondary-checked
+A.7.6,annex_a_control,A.7 Data for AI systems,Data preparation,secondary-checked
+A.8.2,annex_a_control,A.8 Information for interested parties,User documentation and information,secondary-checked
+A.8.3,annex_a_control,A.8 Information for interested parties,External reporting,secondary-checked
+A.8.4,annex_a_control,A.8 Information for interested parties,Communication of incidents,secondary-checked
+A.8.5,annex_a_control,A.8 Information for interested parties,Information for interested parties,secondary-checked
+A.9.2,annex_a_control,A.9 Use of AI systems,Processes for responsible use,secondary-checked
+A.9.3,annex_a_control,A.9 Use of AI systems,Objectives for responsible use,secondary-checked
+A.9.4,annex_a_control,A.9 Use of AI systems,Intended use,secondary-checked
+A.10.2,annex_a_control,A.10 Third-party and customer relationships,Allocating responsibilities,secondary-checked
+A.10.3,annex_a_control,A.10 Third-party and customer relationships,Suppliers,secondary-checked
+A.10.4,annex_a_control,A.10 Third-party and customer relationships,Customers,secondary-checked

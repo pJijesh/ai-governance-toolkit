@@ -100,11 +100,11 @@ Planned, not promised. Order and timing change with other work.
 
 ## Licence
 
-Released under the [MIT Licence](LICENSE). Copyright (c) 2026 Jijesh Puliyappottammal. ISO/IEC 42001 is a copyrighted standard and no part of its text is reproduced here. Framework names are used to identify the documents they refer to.
+Released under the [MIT Licence](LICENSE). Copyright (c) 2026 Puliyappottammal Jijesh. ISO/IEC 42001 is a copyrighted standard and no part of its text is reproduced here. Framework names are used to identify the documents they refer to.
 
 ## Author
 
-**Jijesh Puliyappottammal**, IT Manager, Greater London. Interested in practical AI governance for mid-size organisations. Has ISO/IEC 42001 training and working knowledge of the EU AI Act and the NIST AI RMF.
+**Puliyappottammal Jijesh**, IT Manager, Greater London. Interested in practical AI governance for mid-size organisations. Has ISO/IEC 42001 training and working knowledge of the EU AI Act and the NIST AI RMF.
 
 - GitHub: [pJijesh](https://github.com/pJijesh)
 - LinkedIn: [linkedin.com/in/pjijesh](https://www.linkedin.com/in/pjijesh)

@@ -115,7 +115,7 @@ Please read these before you use or cite the toolkit.
 - **Thin on provider duties.** The toolkit leans towards organisations that buy and use AI (deployers). Duties of providers of high-risk systems and general-purpose AI model providers are covered by two conformity controls and by supplier due diligence only.
 - **Scope.** ISO/IEC 42001 Annex B guidance, other AI standards, UK sector rules and non-EU laws are not mapped. UK data protection law is referred to but not mapped.
 - **Templates are starters.** They have not been audited or tested in a live organisation. All worked examples are fictional.
-- **CI untested on GitHub.** The workflow file is written and the same commands were run locally, but the workflow itself has not yet run on GitHub.
+- **CI covers the tools, not the content.** The workflow runs the validator, the register health check and the tests on GitHub with Python 3.10 and 3.12. It cannot tell you whether the mappings or ratings are right.
 
 ## Roadmap
 

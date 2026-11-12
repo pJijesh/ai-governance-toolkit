@@ -84,7 +84,7 @@ Common trap: trying to be complete before moving on. A 70 per cent inventory in 
 | 9 | Run a table-top incident exercise using a realistic case, such as a biased output or a data leak into a public tool | Exercise notes; fixes to the process | [Incident log](../templates/ai-incident-log.md) |
 | 9 to 10 | Create a system card for each priority system. Record monitoring measures, owners and review dates | System cards | [System card](../templates/ai-system-card.md) |
 | 10 to 11 | Hold the first AI governance meeting: inventory changes, top risks, open incidents, supplier actions, legal changes | Minutes; decisions | TK-GOV-10 |
-| 11 | Run the validator over your registers if you keep them as CSV. Fix errors | Clean data | `tools/validate_and_report.py` |
+| 11 | Run the validator over your registers if you keep them as CSV. Fix errors. Then run the register health report and agree owners for each finding | Clean data; first action list | `tools/validate_and_report.py`, `tools/register_health.py` |
 | 12 | Write the first quarterly report for the sponsor: what you found, what you did, what remains. Be candid about gaps | Report; backlog for the next quarter | TK-GOV-09 |
 | 13 | Ask internal audit or an independent reviewer to sample the work. Plan the next quarter | Review note; plan | TK-GOV-10 |
 
@@ -92,7 +92,7 @@ Common trap: trying to be complete before moving on. A 70 per cent inventory in 
 
 - Governance lead: 30 minute check-in with the sponsor.
 - Governance lead and system owners: review new tools and requests.
-- Once a month: review of open high risks and incidents.
+- Once a month: run `tools/register_health.py` and review open high risks and incidents, starting with its high findings.
 - Once a quarter: governance meeting and report.
 
 ## What "good enough" looks like at day 90

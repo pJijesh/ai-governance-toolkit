@@ -8,6 +8,8 @@ All notable changes to this project are recorded here. The format follows
 
 ### Added
 
+- Register health report (`tools/register_health.py`): nine date-aware rules over the inventory, risk register and incident log, with a generated example and 37 tests.
+- Related work section linking the companion repositories.
 - Community health files: security policy, code of conduct, issue forms and a pull request template.
 - Citation metadata (`CITATION.cff`) so the repository can be cited from GitHub.
 - Dependabot configuration for GitHub Actions.

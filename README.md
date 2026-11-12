@@ -35,7 +35,8 @@
 | 90-day adoption plan | [`docs/how-to-adopt.md`](docs/how-to-adopt.md) | Roles, RACI and weekly steps for a non-specialist |
 | Sources and verification | [`docs/sources-and-verification.md`](docs/sources-and-verification.md) | What was checked, against what, and what was not |
 | Validator and report generator | [`tools/validate_and_report.py`](tools/validate_and_report.py) | Python standard library only |
-| Tests | [`tests/test_validate_and_report.py`](tests/test_validate_and_report.py) | `unittest`, also runs under `pytest` |
+| Register health report | [`tools/register_health.py`](tools/register_health.py), [example output](docs/register-health-example.md) | Dates the registers against today: overdue reviews, late risk actions, stuck incidents |
+| Tests | [`tests/`](tests/) | `unittest`, also runs under `pytest` |
 | Continuous integration | [`.github/workflows/ci.yml`](.github/workflows/ci.yml) | Runs the validator and tests on push |
 | Contributing | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Ground rules and workflow |
 
@@ -56,6 +57,7 @@ Then:
 2. Copy [`templates/ai-system-inventory.csv`](templates/ai-system-inventory.csv) and list the AI systems you use. The [guidance](templates/ai-system-inventory.md) explains each column.
 3. Open [`docs/control-matrix.md`](docs/control-matrix.md) to see which controls relate to which clauses, articles and subcategories.
 4. If you change a CSV in `data/`, run the tool again. In CI the same command runs with `--check` and fails if the generated documents are out of date.
+5. Once you keep registers, run `python tools/register_health.py --registers path/to/your/registers` each month to see what needs action. See [the example report](docs/register-health-example.md).
 
 ## How the pieces fit together
 
@@ -78,6 +80,29 @@ The diagram at the top of this page shows the flow.
 
 The checks test structure and consistency. They cannot tell you whether a risk is well judged or a control works.
 
+## What the register health report checks
+
+The validator asks whether the registers are well formed. `tools/register_health.py` asks which entries need someone to act on a given date. It reads the same three CSV files and reports:
+
+| Rule | Finding |
+|---|---|
+| RH01 | A system review date has passed (raised for high-risk tiers) |
+| RH02 | A live or pilot system has no open risk recorded |
+| RH03 | A risk is past its target date and still open or mitigating |
+| RH04 | An open risk has not been reviewed within the window (default 90 days) |
+| RH05 | A high or critical residual risk is not closed |
+| RH06 | An accepted risk has not been re-confirmed within the window (default 180 days) |
+| RH07 | An incident is still open after the window (default 30 days) |
+| RH08 | A decision on external reporting is still under assessment after the window (default 14 days) |
+| RH09 | An incident has no risk of a matching category on the same system, so it has not fed the risk register |
+
+```
+python tools/register_health.py --registers my-registers --as-of 2027-01-31
+python tools/register_health.py --registers my-registers --fail-on high   # exit 1 for use in a scheduled job
+```
+
+The windows are working defaults and can be changed with `--review-days`, `--accepted-days`, `--incident-days` and `--report-days`. They are not legal limits, and the report cannot tell you whether a reporting duty applies. The [example report](docs/register-health-example.md) is generated from the fictional Fernhill registers at a fixed date and is checked in CI.
+
 ## Limitations
 
 Please read these before you use or cite the toolkit.
@@ -99,6 +124,13 @@ Planned, not promised. Order and timing change with other work.
 - **Next:** Add AI use-case scoring sheet (return, risk, data readiness); Refresh EU AI Act timeline and mappings
 - **Then:** Add ISO/IEC 42001 evidence checklist; Add a second worked example (customer service assistant)
 - **Later:** Refresh NIST AI RMF crosswalk; Release v1.1
+
+## Related work
+
+- [ai-use-register-skill](https://github.com/pJijesh/ai-use-register-skill): an agent skill that finds AI use in code and builds an inventory that cites its evidence. Its output can feed the inventory in this toolkit.
+- [eu-ai-act-tracker](https://github.com/pJijesh/eu-ai-act-tracker): the EU AI Act milestones as sourced data, for keeping the timeline note current.
+- [eu-ai-act-risk-classifier](https://github.com/pJijesh/eu-ai-act-risk-classifier): a short questionnaire that suggests a risk tier, to help fill the `eu_risk_tier` column.
+- [awesome-ai-governance](https://github.com/pJijesh/awesome-ai-governance): a curated list of regulation, standards, guidance and tools with a link checker.
 
 ## Licence
 

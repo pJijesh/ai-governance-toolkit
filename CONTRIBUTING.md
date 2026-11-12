@@ -19,6 +19,7 @@ Thank you for helping to improve the toolkit. Corrections are the most valuable 
 
    ```
    python tools/validate_and_report.py
+   python tools/register_health.py --as-of 2026-12-20 --output docs/register-health-example.md
    python -m unittest discover -s tests -v
    ```
 

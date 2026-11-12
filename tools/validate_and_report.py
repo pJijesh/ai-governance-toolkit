@@ -11,7 +11,7 @@ What it does
 4. Checks that relative links in markdown files point at files that exist.
 5. Generates docs/control-matrix.md and docs/coverage-report.md.
 
-Standard library only. Python 3.9 or later.
+Standard library only. Python 3.10 or later.
 
 Usage
 -----

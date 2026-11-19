@@ -29,6 +29,7 @@
 | Vendor and supplier review | [`templates/ai-vendor-review-checklist.md`](templates/ai-vendor-review-checklist.md) | Questionnaire with evidence column and a filled example |
 | Human oversight checklist | [`templates/human-oversight-checklist.md`](templates/human-oversight-checklist.md) | Tests whether oversight works in practice |
 | System documentation card | [`templates/ai-system-card.md`](templates/ai-system-card.md) | A practical minimum record per system |
+| ISO/IEC 42001 evidence checklist | [`templates/iso42001-evidence-checklist.md`](templates/iso42001-evidence-checklist.md) | One row per requirement with example evidence and an owner role |
 | AI incident log | [`templates/ai-incident-log.md`](templates/ai-incident-log.md), [`.csv`](templates/ai-incident-log.csv) | Handling steps and external reporting points |
 | Worked examples (fictional) | [`examples/fernhill/`](examples/fernhill/), [`examples/larkspur/`](examples/larkspur/) | Inventory, risk register and incident log for two made-up companies; Larkspur adds a customer service assistant with a completed impact assessment and a control mapping |
 | EU AI Act timeline note | [`docs/eu-ai-act-timeline.md`](docs/eu-ai-act-timeline.md) | Dates as at 4 November 2026, with verification status |
@@ -122,7 +123,6 @@ Please read these before you use or cite the toolkit.
 Planned, not promised. Order and timing change with other work.
 
 - **Next:** Add AI use-case scoring sheet (return, risk, data readiness); Refresh EU AI Act timeline and mappings
-- **Then:** Add ISO/IEC 42001 evidence checklist
 - **Later:** Refresh NIST AI RMF crosswalk; Release v1.1
 
 ## Related work

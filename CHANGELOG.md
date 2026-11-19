@@ -10,6 +10,7 @@ All notable changes to this project are recorded here. The format follows
 
 - A second worked example, `examples/larkspur/`: a fictional energy supplier using AI in customer service, with an inventory, risk register, incident log, a completed impact assessment and a control mapping.
 - The validator now checks every folder under `examples/` with the same rules, and the register health report can be run on any of them.
+- An ISO/IEC 42001 evidence checklist (`templates/iso42001-evidence-checklist.md`): one row per framework item with a short paraphrase, example evidence and an owner role.
 
 ## [1.0.0] - 2026-11-12
 
